@@ -1,0 +1,26 @@
+WAF(webApplication Firewall)
+' /*12345word*/ all select 1,2,3 --+
+Yes — /*...*/-style comments (and variants) are commonly used as WAF-evasion/SQLi-obfuscation tricks,
+but effectiveness depends on the WAF and the exact comment form. Use only in authorized tests.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
