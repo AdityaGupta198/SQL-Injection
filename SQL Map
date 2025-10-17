@@ -1,0 +1,2 @@
+sqlmap -u webiste name
+sqlmap -u "https://example.com/AboutUs/" --forms --crawl=2 --batch --level=2 --risk=1
